@@ -1,15 +1,13 @@
-package com.example.demo;
+package com.example.spring_data_jpa_mysql_book;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class SpringDataJpaMysqlBookApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
-		System.out.println("Hello world"); 
-		// Hello World Project
+		SpringApplication.run(SpringDataJpaMysqlBookApplication.class, args);
 	}
 
 }
